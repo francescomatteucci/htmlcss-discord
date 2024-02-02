@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+input{
+    border-radius: 30%;
+    width:60px;
+    border:0;
+    cursor: pointer;
+}
+input:hover{
+background-color: rgb(33, 33, 194);}
+
+.bg-gray {
+    background-color: gray;
+}
+
+.bg-pink {
+    background-color: pink;
+}
+
+.bg-green {
+    background-color: green;
+}
+/* IMG SECTION */
+#jumbo-img{
+    background-image:url(./img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+}
+
+/* header layout */
+header .container {
+    
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+header .row {
+    display: flex;
+    width:100%;
+    min-height: 30px;
+}
+
+
+header .col-25_1 {
+    display: flex;
+    width:25%;
+    justify-content: center;
+    background-repeat: no-repeat;
+    color: white;
+    font-weight: bold;
+
+}
+
+header .col-50 {
+    width:calc(50%/5);
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    align-items:center;
+
+}
+
+header .col-25_2 {
+    width:25%;
+    display: flex;
+    justify-content: center;
+
+}
+a {
+	text-decoration: none;
+	color: currentColor;
+}
+
+/* ASIDE LAYOUT */
+aside .aside-container{
+       
+        min-height: 300px;
+        display: flex;
+        padding: 20px;
+        justify-content: center;
+}
+aside .aside-row{
+    border: 2px solid black;
+    min-height: 200px;
+    width: 400px;
+    display: flex;
+}
+/* SECTION CONTAINERS */
+/* FIRST CONTAINER */
+section .container {
+    border: 2px solid black;
+    min-height: 300px;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+
+section .row {
+    border: 2px solid black;
+    min-height: 300px;
+    width: 600px;
+    display: flex;
+}
+
+.col-65 {
+    width: 65%;
+    background-color: rgba(38, 89, 219, 0.482);
+}
+
+.col-35 {
+    width: 35%;
+    background-color: pink;
+}
+
+.bord-dash-black {
+    border: 2px solid black;
+}
+
+/* SECOND CONTAINER */
+.container-reversed {
+    border: 2px solid black;
+    min-height: 300px;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    background-color: rgb(202, 197, 197);
+}
+
+.row-reversed {
+    border: 2px solid black;
+    min-height: 300px;
+    width: 600px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* THIRD CONTAINER */
+section .container {
+    border: 2px solid black;
+    min-height: 300px;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+
+section .row {
+    border: 2px solid black;
+    min-height: 300px;
+    width: 600px;
+    display: flex;
+}
+
+/* MAIN CONTAINER */
+section .container {
+    border: 2px solid black;
+    min-height: 300px;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+
+section .row {
+    border: 2px solid black;
+    min-height: 300px;
+    width: 600px;
+    display: flex;
+}
+
+.col-33 {
+    width: calc(100%/3);
+    background-color: pink;
+    border: 1px solid black;
+    display: flex;
+}
+
+.col-1-6 {
+    width: calc(100%/6);
+    background-color: aqua;
+    border: 1px solid black;
+    display: flex;
+   
+}
+
+/* FOOTER LAYOUT */
+footer .container {
+    border: 2px solid black;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: aquamarine;
+}
+
+footer .row {
+    display: flex;
+    background-color: yellow;
+    border: 2px solid black;
+    width: 600px;
+    min-height: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .col-25_1-1 {
+    display: flex;
+    width: 40px;
+
+    height: 50%;
+    align-content: center;
+    border: 2px solid black;
+
+}
+
+footer .col-25_2-1 {
+    display: flex;
+    align-content: stretch;
+    height: 50%;
+    height: 30px;
+    border: 2px solid black;
+
+
+}
