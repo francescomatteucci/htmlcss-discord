@@ -30,7 +30,11 @@ background-color: rgb(33, 33, 194);}
     color:white;
 }
 .margin{
-    margin:20px;
+    margin-bottom:20px;
+}
+.justify-center{
+    display: flex;
+    justify-content: center;
 }
 /* IMG SECTION */
 #jumbo-img{
@@ -39,10 +43,13 @@ background-color: rgb(33, 33, 194);}
     background-repeat: no-repeat;
     width:100%;
 }
-
+.images{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+}
 /* header layout */
 header .container {
-    
     min-height: 50px;
     display: flex;
     justify-content: center;
@@ -54,8 +61,6 @@ header .row {
     width:100%;
     min-height: 30px;
 }
-
-
 header .col-25_1 {
     display: flex;
     width:25%;
@@ -63,9 +68,7 @@ header .col-25_1 {
     background-repeat: no-repeat;
     color: white;
     font-weight: bold;
-
 }
-
 header .col-50 {
     width:calc(50%/5);
     display: flex;
@@ -74,7 +77,6 @@ header .col-50 {
     font-weight: bold;
     align-items:center;
 }
-
 header .col-25_2 {
     width:25%;
     
@@ -96,7 +98,6 @@ aside .aside-container{
         display: flex;    
         justify-content:center;
         padding-bottom: 60px;
-        
 }
 aside .aside-row{
     min-height: 300px;
@@ -202,10 +203,10 @@ section .row {
     min-height: 300px;
     width: 600px;
     display: flex;
-}
+} 
 
 /* MAIN CONTAINER */
-section .container {
+section .main-container {
     border: 2px solid black;
     min-height: 300px;
     display: flex;
@@ -263,13 +264,10 @@ footer .col-25_1-1 {
     border: 2px solid black;
 
 }
-
 footer .col-25_2-1 {
     display: flex;
     align-content: stretch;
     height: 50%;
     height: 30px;
     border: 2px solid black;
-
-
 }
